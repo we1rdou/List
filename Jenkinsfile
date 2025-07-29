@@ -37,7 +37,7 @@ pipeline {
                 sh '''
                     docker stop list-app || true
                     docker rm list-app || true
-                    docker run -d --name list-app -p 3000:3000 list-app:latest
+                    docker run -d --name list-app -p 3001:3001 list-app:latest
                     To Do List!!!!!
                 '''
             }
