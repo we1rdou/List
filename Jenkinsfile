@@ -38,7 +38,6 @@ pipeline {
                     docker stop list-app || true
                     docker rm list-app || true
                     docker run -d --name list-app -p 3001:3001 list-app:latest
-                    To Do List!!!!!
                 '''
             }
         }
